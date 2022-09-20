@@ -8,8 +8,6 @@ namespace BlogsApplication.Entities
 {
     public class Blog
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int BlogId { get; set; }
         public string Title { get; set; }
         public string Content { get; set; }

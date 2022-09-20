@@ -20,26 +20,31 @@ namespace BlogsApplication.BusinessLayer.Services
 
         public async Task<Blog> AddBlog(Blog blog)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
         public async Task<Blog> DeleteBlog(int blogId)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
         public async Task<IEnumerable<Blog>> GetAllBlogs()
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
         public async Task<Blog> GetBlogById(int blogId)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
         public async Task<Blog> UpdateBlog(BlogViewModel model)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
     }
